@@ -1,0 +1,98 @@
+body {
+	text-align: center;
+	background-color: rgba(224, 7, 0, 0.6);
+}
+
+img {
+	width: 400px;
+	height: 300px;
+	margin: 20px;
+}
+
+.image1 {
+	clear: left;
+}
+
+.image2 {
+	clear: right;
+}
+
+.userChoice .heading {
+	margin-left: 20px;
+}
+
+.computerChoice .heading {
+	margin-right: 20px; 
+}
+
+.results .userChoice {
+	float: left;
+	border: 2px solid black;
+	background-color: #d67575; 
+	color: #3f48c6;
+}
+
+.results .computerChoice {
+	float: right;
+	border: 2px solid black;
+	background-color: #d67575; 
+	color: #3f48c6;
+}
+
+button.playGame {
+	height: 700px;
+	width: 700px;
+	font-size: 6em;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	margin: auto;
+ 	color: rgb(62, 163, 73);
+ 	background-color: rgba(192, 198, 17, 0.75);
+}
+
+button.playGame:hover {
+	color: rgba(192, 198, 17, 0.75);
+	background-color: rgb(62, 163, 73);
+}
+
+.rock {
+	float: left;
+	position: relative;
+	left: 200px;
+}
+
+ .paper {
+	position: relative;
+	top: 350px;
+	margin: 0 auto;
+}
+
+.scissors {
+	float: right;
+	position: relative;
+	right: 200px;
+}
+
+.button {
+	width: 300px;
+	height: 300px;
+	color: rgb(62, 163, 73);
+	background-color: rgba(192, 198, 17, 0.75);
+	font-size: 5em;
+	font-weight: bold;
+	font-family: times, garmond, serif;
+}
+
+.button:hover {
+	background-color: rgb(62, 163, 73);
+	color: rgba(192, 198, 17, 0.75);
+}
+
+
+
+
+
+
+
+

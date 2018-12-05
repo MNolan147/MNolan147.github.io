@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>scissors, paper, rock engine</title>
+
+        <!--imports my external css-->
+        <link rel="stylesheet" type="text/css" href="rockPaperScissors.css">
+
+        <!--imports jqeury library-->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!--imoprts my external javascript-->
+        <script type="text/javascript" src="rockPaperScissors.js"></script>
+    </head>
+    <body>
+    	<div class="title">
+          <h1>Choose your object</h1>
+        </div>
+        <!--Play Button-->
+        <div class="playGame">
+        	<button class="playGame">play</button>
+        </div>
+        <!--object selectors-->
+        <div class="selectors">
+            <button class="userInput rock button" type="button">Rock</button>
+            <button class="userInput paper button" type="button">Paper</button>
+            <button class="userInput scissors button" type="button">Scissors</button>
+        </div>
+        <!--showing results-->
+        <div class="results">
+            <div class="userChoice">
+        	   <h1 class="userChoice heading">You Chose:</h1>
+        	   <img class="userChoice image1" src="">
+            </div>
+            <div class="computerChoice">
+        	   <h1 class="computerChoice heading">Computer chose:</h1>
+        	   <img class="computerChoice image2" src="">
+            </div>
+        </div>
+        <!--replay section-->
+        <div class="playAgain">
+        	<h1 class="showWinner"></h1>
+        	<button class="restart button">play again</button>
+        </div>
+    </body>
+</html>
