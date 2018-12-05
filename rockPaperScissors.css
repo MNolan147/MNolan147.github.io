@@ -9,6 +9,15 @@ img {
 	margin: 20px;
 }
 
+.title {
+	height: 5%;
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 1.5vw;
+	display: inline;
+}
+
 .image1 {
 	clear: left;
 }
@@ -40,9 +49,9 @@ img {
 }
 
 button.playGame {
-	height: 700px;
-	width: 700px;
-	font-size: 6em;
+	height: 97vh;
+	width: 90vw;
+	font-size: 12vw;
 	font-weight: bold;
 	text-align: center;
 	position: relative;
@@ -58,28 +67,30 @@ button.playGame:hover {
 
 .rock {
 	float: left;
+	margin: auto;
 	position: relative;
 	left: 200px;
 }
 
- .paper {
+.paper {
 	position: relative;
-	top: 350px;
+	top: 310px;
 	margin: 0 auto;
 }
 
 .scissors {
 	float: right;
+	margin: auto;
 	position: relative;
 	right: 200px;
 }
 
 .button {
-	width: 300px;
-	height: 300px;
+	width: 23vw;
+	height: 40vh;
 	color: rgb(62, 163, 73);
 	background-color: rgba(192, 198, 17, 0.75);
-	font-size: 5em;
+	font-size: 5vw;
 	font-weight: bold;
 	font-family: times, garmond, serif;
 }
@@ -89,10 +100,51 @@ button.playGame:hover {
 	color: rgba(192, 198, 17, 0.75);
 }
 
+@media only screen and (max-width: 786px) {
+	.title {
+		font-size: 5vw;
+	}
 
+	.rock, .paper, .scissors {
+		display: inline;
+		position: relative;
+		width: 90%;
+		height: 200px;
+		margin: 5vw;
+		left: 0px;
+		right: 0px;
+		top: 0px;
+	}
+}
 
+@media only screen and (max-width: 1200px) {
+	.results .userChoice {
+		float: none;
+		overflow: auto;
+		margin: 20px auto;
+		border: none;
+	}
 
+	.results .computerChoice {
+		float: none;
+		overflow: auto;
+		margin: 20px auto;
+		border: none;
+	}
 
+	.results {
+		border: 2px dotted black;
+	}
 
+	.playAgain button {
+		width: 70vw;
+		height: 60vw;
+		font-size: 10vw;
+	}
+
+	.playAgain h1 {
+		font-size: 6vw;
+	}
+}
 
 
