@@ -36,7 +36,7 @@ function getUserImage() {
 }
 
 function getComputerImage() {
-	switch (userInput) {
+	switch (computerChoice) {
 		case 'rock':
 			$('.image2').attr('src', 'https://png2.kisspng.com/sh/ac0fbc33b6eedebca8a9be544d8c9c4a/L0KzQYm3VME6N6lrfZH0aYP2gLBuTfdzaaFtgdU2ZHX2ebj1TgJwa5wyjtdsdHB1PYbohMg0bZRme6oBMHO3PoK8V8AxO2o2Sac7NEG1QYOCUMgzOGkziNDw/kisspng-graphic-design-rock-vector-5ad83ecac860c4.1570039115241212908208.png');
 			break;	
