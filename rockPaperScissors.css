@@ -100,7 +100,7 @@ button.playGame:hover {
 	color: rgba(192, 198, 17, 0.75);
 }
 
-@media only screen and (max-width: 1351px) {
+@media only screen and (max-width: 1200px) {
 	.title {
 		font-size: 5vw;
 	}
