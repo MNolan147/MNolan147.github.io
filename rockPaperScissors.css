@@ -100,7 +100,7 @@ button.playGame:hover {
 	color: rgba(192, 198, 17, 0.75);
 }
 
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 1351px) {
 	.title {
 		font-size: 5vw;
 	}
@@ -115,9 +115,7 @@ button.playGame:hover {
 		right: 0px;
 		top: 0px;
 	}
-}
 
-@media only screen and (max-width: 1200px) {
 	.results .userChoice {
 		float: none;
 		overflow: auto;
