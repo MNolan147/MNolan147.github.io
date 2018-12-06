@@ -121,6 +121,7 @@ button.playGame:hover {
 		overflow: auto;
 		margin: 20px auto;
 		border: none;
+		width: 95vw;
 	}
 
 	.results .computerChoice {
@@ -128,14 +129,22 @@ button.playGame:hover {
 		overflow: auto;
 		margin: 20px auto;
 		border: none;
+		width: 95vw;
 	}
 
 	.results {
 		border: 2px dotted black;
+		width: 95vw;
+		margin: 20px auto;
 	}
 
-	img.results {
+	.results img {
 		width: 80%;
+		height: 50vh;
+	}
+
+	.results h1 {
+		font-size: 7vw;
 	}
 
 	.playAgain button {
@@ -148,5 +157,35 @@ button.playGame:hover {
 		font-size: 6vw;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
