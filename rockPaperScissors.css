@@ -136,6 +136,10 @@ button.playGame:hover {
 		border: 2px dotted black;
 	}
 
+	img.results {
+		width: 80%;
+	}
+
 	.playAgain button {
 		width: 70vw;
 		height: 60vw;
